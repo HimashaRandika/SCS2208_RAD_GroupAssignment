@@ -1,15 +1,15 @@
 import express from "express";
-/*import dotenv from "dotenv";
+import dotenv from "dotenv";
 import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
 import cookieParser from "cookie-parser";
-import cors from "cors";*/
+import cors from "cors";
 
 const app = express();
-/*dotenv.config();
+dotenv.config();
 
 const connect = async () => {
   try {
@@ -43,7 +43,7 @@ app.use((err, req, res, next) => {
     message: errorMessage,
     stack: err.stack,
   });
-});*/
+});
 
 app.listen(8800, () => {
   connect();
